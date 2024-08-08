@@ -1,3 +1,14 @@
+
+
+
+Industries, companies, cities, households, etc., all consume energy. Both consumers and producers can benefit greatly from accurate estimates of 
+future consumption. Therefore, the forecasts are also a key input of the decision-making process.
+This particular project is about a Norweigien Manufacturing company where they want to predict their electricity load for the given hour. If the predicted load is higher than a decided threshold they will activate solar powered electricity as well for the continiuos operations.
+
+
+
+
+
 Steps of creating API with FastAPI, containerizing it with Docker and Deploying in Azure Container registry and Azure container Instance
 
 Create API  - https://www.youtube.com/watch?v=ZTz26f6XXrQ
