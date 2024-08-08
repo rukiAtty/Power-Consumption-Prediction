@@ -11,7 +11,7 @@ This particular project is about a Norweigien Manufacturing company where they w
 
 Steps of creating API with FastAPI, containerizing it with Docker and Deploying in Azure Container registry and Azure container Instance
 
-Create API  - https://www.youtube.com/watch?v=ZTz26f6XXrQ
+Create API  
 
 1. Create main_api.py file
 2. create test.py file
