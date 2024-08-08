@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment # Set up the deployement kind
+metadata:
+  name: loadpred-deployment # Name for the deployement
+  labels:
+    app: loadpred
+spec:
+  replicas: 1 # Number of clones that we want
+  selector:
+    matchLabels:
+      app: loadpred
+  template:
+    metadata:
+      labels:
+        app: loadpred
+    spec:
+      containers:
+        - name: loadpred
+          image: loadpredmodel.azurecr.io/load-pred-api:latest # Container name that we pushed to ACR
+          ports:
+            - containerPort: 8045 # Container port number

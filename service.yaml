@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service # Set up the service kind
+metadata:
+  name: loadpred-loadbalancer-service
+  labels:
+    app: loadpred
+spec:
+  type: LoadBalancer # Here we use load balancer service.
+  selector:
+    app: loadpred
+  ports:
+    - port: 80
+      targetPort: 8000
