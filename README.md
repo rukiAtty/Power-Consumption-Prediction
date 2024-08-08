@@ -23,7 +23,7 @@ Testing on Local
     python test.py in another terminal
 paste http://127.0.0.1:8000/docs
 
-Creating docker image  -  https://www.youtube.com/watch?v=ndSSIpGXizU&t=480s
+Creating docker image  - 
 
  1. create Dockerfile as done
  2. run the command
